@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1E40AF" />
+    </linearGradient>
+    <linearGradient id="aGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#818CF8" />
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="104" height="104" rx="28" fill="url(#pGrad)" />
+  <circle cx="60" cy="60" r="42" stroke="white" stroke-opacity="0.15" stroke-width="2" stroke-dasharray="4 4" />
+  <path d="M60 22 C78 22 92 36 92 54" stroke="url(#aGrad)" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+  <path d="M60 36 C49.5 36 41 44.5 41 55 C41 68 57 84 60 87 C63 84 79 68 79 55 C79 44.5 70.5 36 60 36 Z" fill="white" />
+  <circle cx="60" cy="54" r="10" fill="url(#pGrad)" />
+  <circle cx="57" cy="51" r="3" fill="#38BDF8" />
+</svg>
